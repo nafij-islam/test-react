@@ -9,7 +9,12 @@ export default {
        fontFamily: {
       'jost': ["Jost",],
       
-    }
+    },
+   
+    colors: {
+      'primary': '#00413D',
+      'secondary': '#E5745D',
+    },
     },
   },
   plugins: [],

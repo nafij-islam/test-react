@@ -1,8 +1,8 @@
 import React from 'react'
 
-const List = ({listitem}) => {
+const List = ({listitem,className}) => {
   return (
-     <li className='text-[18px] font-normal list-none text-[#00413D]'>{listitem}</li>
+     <li className={`'text-[18px] font-normal list-none text-primary hover:text-secondary  cursor-pointer inline-block' ${className}`} >{listitem}</li>
   )
 }
 
