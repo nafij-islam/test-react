@@ -8,6 +8,7 @@ export default {
     extend: {
        fontFamily: {
       'jost': ["Jost",],
+      'voll': ["Vollkorn",],
       
     },
    
@@ -15,6 +16,9 @@ export default {
       'primary': '#00413D',
       'secondary': '#E5745D',
     },
+     backgroundImage: {
+        'bannerimg': "url('./src/assets/bannerimg.png')",
+      }
     },
   },
   plugins: [],
