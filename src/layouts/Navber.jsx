@@ -7,9 +7,11 @@ import List from './../components/List';
 import Button from './../components/Button';
 
 
+
 const Navber = () => {
   return (
     <section className='py-[18px]'>
+        
         <Container>
             <Flex className={"justify-between items-center"}>
                 <div className='w-3/12'>

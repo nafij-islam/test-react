@@ -21,7 +21,7 @@ const Banner = () => {
             <span className='block'>I’m Saharian Nafis</span></h1>
             <p className='relative z-10 pb-[50px] text-[20px] text-[#ffffff80] font-jost font-normal w-[670px]'>I’am freelance<span className='text-white font-bold'> UI/UX Desogner</span> based in Indonesia who loves to craft attractive design experiences for the web.</p>
 
-            <Button className='ml-0' btntext={'Submit'}/>
+            <Button className='ml-0 hover:bg-white duration-300' btntext={'Submit'}/>
             
         </Container>
 
